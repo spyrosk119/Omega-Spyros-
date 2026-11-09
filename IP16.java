@@ -1,5 +1,5 @@
 package ss.week1;
-
+import java.util.Scanner;
 import java.util.Arrays;
 
 public class IP16 {
@@ -19,7 +19,11 @@ public class IP16 {
         return total;
 
     }
-    public static void main(String[] args) {
-        System.out.println(SortNumbers("3374 33"));
+  public static void main(String[] args) {
+        Scanner bigdaddymanos = new Scanner(System.in);
+        System.out.print("Enter a number my guy or miss or they/them");
+        String line = bigdaddymanos.nextLine();
+        System.out.println(SortNumbers(line));
+
     }
 }
