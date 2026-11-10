@@ -3,15 +3,18 @@ import java.util.Scanner;
 
 public class IP15 {
 
+    /**
+     *this methods turns a word into a String number using the American telephone mapping)
+     * @param word
+     * @return (returns the word from the parameters as a String of numbers using the American telephone mapping.)
+     */
     public static String trans(String word) {
         String lowerCase = word.toLowerCase();
         String result = "";
         for (int i = 0; i < lowerCase.length(); i++) {
-            switch (lowerCase.charAt(i)) {
+             switch (lowerCase.charAt(i)) {
                 case 'a':
-                    result = result + "2";
-                    break;
-                case 'b':
+                 case 'b':
                     result = result + "2";
                     break;
                 case 'c':

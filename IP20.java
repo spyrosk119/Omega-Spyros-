@@ -1,7 +1,11 @@
 package ss.week1;
 
 public class IP20 {
-
+    /**
+     *
+     * @param a (integer array)
+     * @return (return a new array containing only the unique values, in the order of their first appearance)
+     */
     public static int[] newArray(int[] a) {
 
         int[] keptNumbers = new int[a.length];   // the numbers we keep, in reverse order
@@ -28,5 +32,11 @@ public class IP20 {
         }
 
         return answer;
+    }
+    public static void main(String[] args) {
+        int[] result = newArray(new int[] {3,67,1,2,3});
+        for (int i=0; i<result.length; i++) {
+            System.out.print(result[i]+" ");
+        }
     }
 }

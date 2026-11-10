@@ -3,7 +3,11 @@ import java.util.Scanner;
 import java.util.Arrays;
 
 public class IP16 {
-
+    /**
+     *
+     * @param a
+     * @return returns a the String of numbers, sorted
+     */
     public static String SortNumbers(String a) {
 
         String total ="";
@@ -21,7 +25,7 @@ public class IP16 {
     }
   public static void main(String[] args) {
         Scanner bigdaddymanos = new Scanner(System.in);
-        System.out.print("Enter a number my guy or miss or they/them");
+        System.out.print("Enter a number my guy or miss or they/them ");
         String line = bigdaddymanos.nextLine();
         System.out.println(SortNumbers(line));
 
