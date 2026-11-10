@@ -1,7 +1,13 @@
 package ss.week1;
 
+
 public class IP18 {
 
+    /**
+     *Given an array of
+     * measured speeds (in km/h), computes the total amount of fines
+     * @param a (the integer array)
+     */
     public static void data(int[] a) {
         int total = 0;
         for (int i = 0; i < a.length; i++) {

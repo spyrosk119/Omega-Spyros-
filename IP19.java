@@ -2,6 +2,11 @@ package ss.week1;
 
 public class IP19 {
 
+    /**
+     *Given an array of daily temperatures, determines the length of the longest increasing streak:
+     * consecutive days on which each temperature is higher than the one before.
+     * @param a
+     */
     public static void data(int[] a) {
         int total =1;
         int max = 1;
