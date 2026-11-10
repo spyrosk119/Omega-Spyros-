@@ -3,7 +3,7 @@ package ss.week1;
 public class Gcd {
 
     /**
-     *Using recursion, returns the gcd of 2 integers
+     *Using recursion, returns the gcd of 2 non negative integers
      * @param a
      * @param b
      * @return the gcd of a and b
