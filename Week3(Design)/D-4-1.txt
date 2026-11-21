@@ -1,0 +1,28 @@
+D-4.1   
+
+1 publisher-subscriber
+The publisher is the sensor hub
+
+The subscribers are: The mobile app,
+the LED wall
+
+2 state
+The states for audio tour player are: Stopped, playing, paused
+
+because the player can swtich betwen modes
+
+3 Strategy
+The context is the one changing the theme
+
+The strategies: light,dark,high-contrast
+themes
+
+4 MVC
+Model: entries(Title, time, room ,speaker)
+
+View: schedule table, event detail view
+ Controller: form
+
+5 Strategy 
+Strategy: Paypal, bank transfer
+Context: checkout
